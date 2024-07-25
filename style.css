@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* la saisir des information dans le conteneur-gauche*/
+.conteneur{
+    display: flex;
+}
+.conteneur-gauche
+{
+ background-color: rgb(87, 50, 208);
+ width: 500px;
+ height: 1450px;
+ 
+}
+
+.cercle
+{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-left: 105px;
+    margin-top: 50px;
+    border-radius: 100px;
+}
+.cercle img
+{
+   border-radius: 130px;
+}
+
+.apropos,.competences,.langue,.centre-interet
+{
+    color: white;
+}
+.apropos h1,.competences h1,.langue h1,.centre-interet h1
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.apropos p
+{
+    padding-top: 10px;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+.centre-interet p
+{
+    padding-top: 10px;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+.section 
+{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 20px;
+    
+    
+}
+.section  p
+{
+    margin-left: 10px;
+}
+.bar
+{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bar-progression
+{
+    width: 250px;
+    height: 20px;
+    background-color: rgb(1, 1, 1);
+    margin-top: 10px;
+}
+.bar2
+{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bar-progression2
+{
+    width: 210px;
+    height: 20px;
+    background-color: rgb(1, 1, 1);
+    margin-top: 10px;
+}
+.bar3
+{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bar-progression3
+{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(1, 1, 1);
+    margin-top: 10px;
+}
+.bar4
+{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bar-progression4
+{
+    width: 350px;
+    height: 20px;
+    background-color: rgb(1, 1, 1);
+    margin-top: 10px;
+}
+.bar5
+{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bar-progression5
+{
+    width: 340px;
+    height: 20px;
+    background-color: rgb(1, 1, 1);
+    margin-top: 10px;
+}
+.bar6
+{
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.bar-progression6
+{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(1, 1, 1);
+    margin-top: 10px;
+}
+.langue p
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.centre-interet 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* la saisir des information dans le conteneur-droite*/
+.conteneur-droite
+{
+    background-color: rgb(188, 181, 181);
+ width: 100%;
+ height: 225px;
+ 
+ 
+}
+
+.nom 
+{
+   margin-left: 100px;
+    margin-top: 50px;
+    color: black;
+    font-weight: 900;
+}
+.nom p
+{
+    font-weight: normal;
+}
+.nom span
+{
+    color:rgb(87, 50, 208) ;
+}
+.addres
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.addres p
+{
+    color: rgb(87, 50, 208) ;
+    margin-left: 10px;
+}
+.localisation
+{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 10px;
+    color: rgb(87, 50, 208) ;
+}
+.localisation p
+{
+    margin-left: 10px;
+}
+.phone
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.phone p
+{
+    margin-left: 10px;
+    color: rgb(87, 50, 208) ;
+}
+
+
+/* la saisir des information dans le conteneur-bas*/
+
+.conteneur-bas
+{
+    background-color: rgb(255, 255, 255);
+ width: 100%;
+ height: 600px;
+ margin-top: 50px;
+ 
+}
+.conteneur-bas h1
+{
+    margin-left: 100px;
+}
+.forma 
+{
+   margin-top: 50px;
+}
+.conteneur-bas h1 span
+{
+    color: rgb(87, 50, 208);
+}
+.conteneur-bas p
+{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+@media(max-width:900px)
+{
+  
+    .nom , .addres , .localisation , .phone , .conteneur-bas h1 , .conteneur-bas p
+    {
+        margin-left: 50px;
+    }
+
+     .conteneur-gauche
+     {
+        height: 1800px;
+     }
+       .conteneur-bas
+       {
+        margin-top: 100px;
+       }
+       .apropos,.competences,.langue,.centre-interet
+     {
+       padding-top: 30px;
+     }
+}
+@media(max-width:345px)
+{
+   
+    .nom , .addres , .localisation , .phone , .conteneur-bas h1 , .conteneur-bas p
+    {
+        margin-left: 50px;
+    }
+
+     .conteneur-gauche
+     {
+        height: 2000px;
+     }
+     .conteneur-bas
+     {
+      margin-top: 200px;
+     }
+     .apropos,.competences,.langue,.centre-interet
+     {
+       padding-top: 70px;
+     }
+
+}
+
+
